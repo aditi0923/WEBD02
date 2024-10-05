@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Home Appliances Dashboard</title>
+    <link rel="stylesheet" href="styledash.css">
+</head>
+<body>
+    <header>
+        <h1>Home Appliances Dashboard</h1>
+    </header>
+    <main>
+        <section id="appliance-list">
+            <h2>Appliance List</h2>
+            <ul id="applianceItems">
+                <!-- Appliances will be dynamically added here -->
+            </ul>
+        </section>
+        <section id="add-appliance">
+            <h2>Add New Appliance</h2>
+            <form id="applianceForm">
+                <input type="text" id="applianceName" placeholder="Appliance Name" required>
+                <input type="text" id="applianceType" placeholder="Appliance Type" required>
+                <button type="submit">Add Appliance</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Home Appliances Dashboard</p>
+    </footer>
+    <script src="scriptdash.js"></script>
+</body>
+</html>
